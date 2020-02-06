@@ -1,0 +1,201 @@
+* {
+	box-sizing: border-box;
+	font-family: sans-serif;
+	color: whitesmoke;
+	font-family: monospace;
+	/*outline: solid white 2px;*/
+}
+
+body {
+	background-color: #318fb5;
+	margin: 0;
+}
+
+.title {
+	width: 100%;
+	color: white;
+	display: inline-block;
+	padding-right: 20px;
+}
+
+.title h1 {
+	font-style: italic;
+	font-family: serif;
+	font-size: 40px;
+	float: left;
+	background-color: #005086;
+	padding: 10px 30px;
+}
+
+.title h2 {
+	font-size: 20px;
+	font-family: monospace;
+	float: right;
+	padding: 5px;
+	border: solid white 2px;
+	margin-top: 40px;
+}
+
+.topnav {
+ 	overflow: hidden;
+ 	background-color: #f7d6bf;
+ 	border: solid #005086 3px;
+ 	border-right: none;
+ 	border-left: none; 
+ }
+
+.topnav ul {
+	 list-style-type: none;
+	 margin: 0;
+	 padding: 0;
+	 width: 100%;
+}
+
+.topnav a {
+	 float: left;
+	 display: block;
+	 color: black;
+	 text-align: center;
+	 padding: 14px 20px;
+	 text-decoration: none;
+	 font-size: 12px;
+}
+
+.topnav a:hover {
+ 	background-color: tan;
+ 	color: black;
+}
+
+.heading {
+	font-size: 24px;
+	font-family: monospace;
+	text-align: center;
+	padding: 20px;
+}
+
+.content {
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 60px;
+}
+
+.content h3 {
+	font-size: 28px;
+	font-family: monospace;
+	margin: 60px;
+}
+
+.content p {
+	font-size: 20px;
+	font-family: monospace;
+	width: 600px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.content ul {
+	list-style-type: none;
+	font-family: monospace;
+	text-decoration: underline;
+	margin: 0;
+	padding: 0;
+}
+
+.content li {
+	margin: 5px;
+}
+
+#border {
+	border: solid white 3px;
+	width: 500px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+#contact {
+	padding-top: 50px;
+	margin: 0 auto;
+	border-top: solid white 8px;
+	width: 600px;
+}
+
+#text {
+	font-size: 16px;
+	text-align: center;
+}
+
+.gallery {
+	text-align: center;
+}
+
+.gallery h4 {
+	font-size: 20px;
+	font-family: monospace;
+}
+
+.gallery img {
+	height: 400px;
+	display: inline-block;
+	margin: 5px;
+}
+
+.resume embed {
+	display: inline;
+	float: right;
+	width: 600px;
+	height: 820px;
+	margin: 0 60px;
+}
+
+#skills {
+	display: inline-block;
+	float: left;
+	margin-left: 60px;
+	width: 720px;
+}
+
+#skills p {
+	font-size: 18px;
+	text-align: justify;
+}
+
+#repo a {
+	text-align: center;
+	width: 600px;
+	display: block;
+	margin: 80px auto;
+	background-color: #005086;
+	text-decoration: none;
+	font-size: 32px;
+	padding: 50px;
+}
+
+#repo a:hover {
+	background-color: #001244;
+}
+
+.panel {
+	display: inline-block;
+	vertical-align: top;
+	width: auto;
+	margin: 0 15px;
+}
+
+.panel img {
+	height: 300px;
+}
+
+.panel p {
+	text-align: justify;
+	font-size: 18px;
+	width: 500px;
+	margin: 10px auto;
+}
+
+#service {
+	text-align: center;
+}
+
+#nami p {
+	width: 300px;
+}
